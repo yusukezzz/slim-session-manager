@@ -1,0 +1,27 @@
+{
+    "name": "yusukezzz/slim-session-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yusukezzz",
+            "email": "g0632198@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/session": "4.2.*"
+    },
+    "require-dev": {
+        "illuminate/filesystem": "4.2.*",
+        "illuminate/database": "4.2.*",
+        "phpunit/phpunit": "4.*"
+    },
+    "suggest": {
+        "illuminate/database": "for database session handler",
+        "illuminate/filesystem": "for filesystem session handler"
+    },
+    "autoload": {
+        "psr-0": { "Slim\\Middleware\\": "src/" }
+    },
+    "minimum-stability": "stable"
+}

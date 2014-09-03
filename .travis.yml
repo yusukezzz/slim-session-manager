@@ -1,0 +1,13 @@
+language: php
+php:
+- 5.4
+- 5.5
+- 5.6
+before_script:
+- curl -s http://getcomposer.org/installer | php
+- php composer.phar install --dev
+script:
+- phpunit --coverage-text
+notifications:
+  slack:
+    secure: PEuQ6Hfd/fimTNBW+H88yBDB+3sLx25HD8wnTZmJB37gHQ2D3ywDQudx/9A/QPICvtLJQ/G/eFdqKiovZEDG64ylgj6gAkioixrqmSyRLlcHoQ7ImZCbozQYk4f3sTXkbn+6MvDycEx5a7CuHwhMeDt7so9s0jNx5ZTPJpLWJNk=
