@@ -18,7 +18,7 @@ choose your session driver, filesystem or database and install it.
 if you use database, require sessions table. (for mysql)
 
 ```sql
-CREATE TABLE `session` (
+CREATE TABLE `sessions` (
   `id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `payload` text COLLATE utf8_unicode_ci NOT NULL,
   `last_activity` int(11) NOT NULL,
