@@ -8,13 +8,12 @@
         }
     ],
     "require": {
-        "slim/slim": "2.*",
-        "illuminate/session": "4.2.*"
+        "slim/slim": "^3.1",
+        "illuminate/session": "~5.1"
     },
     "require-dev": {
-        "illuminate/filesystem": "4.2.*",
-        "illuminate/database": "4.2.*",
-        "phpunit/phpunit": "4.*"
+        "illuminate/filesystem": "~5.1",
+        "illuminate/database": "~5.1"
     },
     "suggest": {
         "illuminate/database": "for database session handler",
